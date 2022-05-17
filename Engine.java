@@ -1,8 +1,8 @@
 public abstract class Engine {
     private int max_speed;
     private double accel;
-    protected double ageHr;
-    protected double sumOfkm;
+    private double ageHr;
+    private double sumOfkm;
 
     public Engine() {
     }
