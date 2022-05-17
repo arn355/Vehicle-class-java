@@ -52,7 +52,7 @@ public class Car extends Engine implements Process {
 
     @Override
     public void accelerate(double increaseAccel) {
-        setAccel(getAccel() * increaseAccel);
+        setAccel(getAccel() * (increaseAccel/2));
     }
 
     @Override
